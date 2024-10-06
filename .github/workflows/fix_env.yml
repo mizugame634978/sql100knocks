@@ -61,7 +61,7 @@ jobs:
             sed -i -e "s/ $package_name==[0-9.]*$/ $package/g" environment.yml
             sed -i -e "s/ $package_name=[0-9.]*$/ ${package//==/=}/g" environment.yml
           done
-      - uses: dev-hato/actions-diff-pr-management@v1.1.12
+      - uses: dev-hato/actions-diff-pr-management@v1.1.13
         if: success() || failure()
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
