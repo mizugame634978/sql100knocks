@@ -28,4 +28,4 @@
 - git hub, vscodeで差分を見やすいように管理したい
 - 「jupyterが開くディレクトリ!=.gitがあるディレクトリ」のため、そこの解決も図りたい
 - work用とそれ以外でリポジトリを2つ作成したくない
-- jupyterlab + jupytextで生成したpyフィアルを管理 or 
+- jupyterlab + jupytextで生成したpyファイルを管理 or nbstripoutでipynbの出力を削除し管理
